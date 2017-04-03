@@ -1,0 +1,23 @@
+.date-container{
+    position: absolute;
+    bottom: 5vh;
+    left: 5vw;
+}
+
+.temperature{
+    font-size: 10em;
+    font-weight: 100;
+}
+
+.city{
+    margin-top: -10px; 
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.description{
+    margin-top: 5%;
+    font-size: 1em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.6);
+}

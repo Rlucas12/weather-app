@@ -11,7 +11,6 @@ class CityComponent extends Component {
                     <span className="day">3, </span>
                     <span className="year">2017</span>
                 </div>
-
                 <DateComponent />
             </div>
         );
