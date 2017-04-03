@@ -4,7 +4,10 @@ import CityComponent from '../City/City.component';
 class Home extends Component {
     render() {
         return (
-            <City />
+            <div>
+                <h1>Weather app</h1>
+                <CityComponent />
+            </div>
         );
     }
 }
