@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import City from '../City/City';
+import CityComponent from '../City/City.component';
 
 class Home extends Component {
     render() {
