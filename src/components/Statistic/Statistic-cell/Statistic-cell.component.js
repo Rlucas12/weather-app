@@ -4,9 +4,9 @@ import './Statistic-cell.component.css';
 class StatisticCellComponent extends Component {
     render() {
         return (
-            <div className="cell-container">
-                <span className={`cell-icn ${this.props.icn}`}></span>
-                <span className="cell-content">{this.props.content}</span>
+            <div className="statistic-cell-container">
+                <span className={`statistic-cell-icn ${this.props.icn}`}></span>
+                <span className="statistic-cell-content">{this.props.content}</span>
             </div>
         );
     }

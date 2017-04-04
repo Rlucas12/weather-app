@@ -1,14 +1,14 @@
-.cell-container{
+.statistic-cell-container{
     display: flex;
 	flex-direction: column;
 }
 
-.cell-icn{
+.statistic-cell-icn{
     display: flex;
     font-size: 5em;
 }
 
-.cell-content{
+.statistic-cell-content{
     display: flex;
     justify-content: center;
     padding: 25% 0;

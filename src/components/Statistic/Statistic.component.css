@@ -1,6 +1,6 @@
 .statistic-container{
     position: absolute;
-    height: 100vh;
+    height: 35vh;
     top: 0;
     left: 35vw;
     right: 0;
@@ -19,11 +19,6 @@
     cursor: pointer;
     color: #fc6aa1;
     font-weight: 100; 
-}
-.separation{
-    height: 1px;
-    margin: 2.5% 0;
-    background-color: rgba(50, 50, 50, 0.4);
 }
 .statistic-content{
     display: flex;

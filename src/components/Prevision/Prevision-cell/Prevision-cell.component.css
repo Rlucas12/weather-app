@@ -1,0 +1,16 @@
+.prevision-cell-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+.prevision-cell-time{
+    color: rgba(135, 135, 135, 0.6);
+}
+.prevision-cell-description{
+    color: rgba(135, 135, 135, 0.6);
+}
+.prevision-cell-temperature{
+    color: #fc6aa1;
+    font-size: 1.4em;
+    font-weight: 400;
+}

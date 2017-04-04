@@ -51,3 +51,8 @@ body {
   content: "\e903";
 }
 
+.separation{
+    height: 1px;
+    margin: 2.5% 0;
+    background-color: rgba(50, 50, 50, 0.4);
+}
