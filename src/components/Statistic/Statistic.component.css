@@ -1,0 +1,33 @@
+.statistic-container{
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 35vw;
+    right: 0;
+    padding: 8vh 5vw;
+}
+.statistic-header{
+    display: flex;
+    justify-content: space-between;
+}
+.statistic-header .title{
+    color: rgba(100, 100, 100, 0.8);
+    font-size: 1.4em;
+    font-weight: 300;
+}
+.statistic-header .more{
+    cursor: pointer;
+    color: #fc6aa1;
+    font-weight: 100; 
+}
+.separation{
+    height: 1px;
+    margin: 2.5% 0;
+    background-color: rgba(50, 50, 50, 0.4);
+}
+.statistic-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 2%;
+}
