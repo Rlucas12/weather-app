@@ -1,23 +1,31 @@
 import React, { Component } from 'react';
-import PrevisionCellComponent from './Prevision-cell/Prevision-cell.component';
+import PrevisionDetailComponent from './Prevision-detail/Prevision-detail.component';
 import './Prevision.component.css';
 
 class PrevisionComponent extends Component {
+    constructor(){
+        super()
+        this.state = {
+            selectedTab: "today"
+        }
+        this.handleSwichedTab = this.handleSwichedTab.bind(this)
+    }
+    handleSwichedTab(newTab){
+        this.setState({
+            selectedTab: newTab
+        })
+    }
     render() {
         return (
             <div className="prevision-container">
                 <div className="prevision-header">
-                    <span className="title">Today</span>
-                    <span className="title">Week</span>
-                    <span className="title">Month</span>
+                    <span className="title" onClick={() => {this.handleSwichedTab("today")}}>Today</span>
+                    <span className="title" onClick={() => {this.handleSwichedTab("week")}}>Week</span>
+                    <span className="title" onClick={() => {this.handleSwichedTab("month")}}>Month</span>
                 </div>
                 <div className="separation"></div>
-                <div className="tab-selected"></div>
-                <div className="prevision-content">
-                    <PrevisionCellComponent time="13h00" description="Party cloudy" temperature="28°C"/>
-                    <PrevisionCellComponent time="14h00" description="Sunny" temperature="29°C"/>
-                    <PrevisionCellComponent time="15h00" description="Cloudy" temperature="27°C"/>
-                </div>
+                <div className={"tab-selected "+ this.state.selectedTab +"-selected"}></div>
+                <PrevisionDetailComponent tab={this.state.selectedTab}/>
             </div>
         );
     }

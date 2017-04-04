@@ -29,3 +29,15 @@
     background-image: linear-gradient(to bottom right,rgb(249, 73, 182) 0%,rgb(255, 139, 139) 100%);
     background-image: -ms-linear-gradient(top left,rgb(249, 73, 182) 0%,rgb(255, 139, 139) 100%);
 }
+.today-selected{
+    margin-left: 0%;
+    transition: margin-left 0.5s;
+}
+.week-selected{
+    margin-left: 9.5%;
+    transition: margin-left 0.5s;
+}
+.month-selected{
+    margin-left: 19%;
+    transition: margin-left 0.5s;
+}

@@ -1,15 +1,15 @@
-.prevision-cell-container{
+.prevision-line-container{
     display: flex;
     justify-content: space-between;
-    padding: 5%;
+    padding: 3% 5%;
 }
-.prevision-cell-time{
+.prevision-line-time{
     color: rgba(135, 135, 135, 0.6);
 }
-.prevision-cell-description{
+.prevision-line-description{
     color: rgba(135, 135, 135, 0.6);
 }
-.prevision-cell-temperature{
+.prevision-line-temperature{
     color: #fc6aa1;
     font-size: 1.4em;
     font-weight: 400;
