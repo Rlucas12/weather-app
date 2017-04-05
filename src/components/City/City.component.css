@@ -10,13 +10,8 @@
     background-image: -ms-linear-gradient(top left,rgb(249, 73, 182) 0%,rgb(255, 139, 139) 100%);
 
     color: #FFF;
-
-    position: absolute;
-    height: 100vh;
-    left: 0;
-    right: 65vw;
-    display: flex;
-    flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
 
 .date{
