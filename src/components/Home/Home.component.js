@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Carousel from 'nuka-carousel';
 import CityComponent from '../City/City.component';
 import StatisticComponent from '../Statistic/Statistic.component';
 import PrevisionComponent from '../Prevision/Prevision.component';
@@ -10,11 +9,7 @@ class HomeComponent extends Component {
         return (
             <div className="home-container">
                 <div className="left-panel">
-                    <Carousel>
-                        <CityComponent />
-                        <CityComponent />
-                        <CityComponent />
-                    </Carousel>
+                    <CityComponent />
                 </div>
                 <div className="right-panel">
                     <StatisticComponent />

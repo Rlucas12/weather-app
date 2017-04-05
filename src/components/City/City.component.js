@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import DateComponent from '../Date/Date.component';
 import Moment from 'moment';
+import Carousel from 'nuka-carousel';
 import './City.component.css';
 
 class CityComponent extends Component {
@@ -13,7 +14,11 @@ class CityComponent extends Component {
                     <span className="day">{today.format("DD")}, </span>
                     <span className="year">{today.format("YYYY")}</span>
                 </div>
-                <DateComponent />
+                <Carousel>
+                    <DateComponent />
+                    <DateComponent />
+                    <DateComponent />
+                </Carousel>
             </div>
         );
     }
